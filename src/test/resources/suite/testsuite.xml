@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Application-GSPA" parallel="false">
+    <parameter name="jsonLocation"   value="alliedPackages//hearingAidDispenser"/>
+    <test verbose="1" name="Application: Hearing Aid Dispenser (GSPA)" annotations="JDK" >
+        <classes>
+            <class name="TestDemo.TestNotation"/>
+        </classes>
+    </test>
+</suite>
